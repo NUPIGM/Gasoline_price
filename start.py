@@ -8,7 +8,6 @@ Original file is located at
 """
 
 import requests
-from bs4 import BeautifulSoup
 import json
 
 url = 'https://cx.sinopecsales.com/yjkqiantai/data/switchProvince'
