@@ -16,7 +16,7 @@ const postData = {
 };
 
 // 发送 POST 请求
-axios.post('http://example.com/api/endpoint', postData)
+axios.post(url_post, postData)
   .then(response => {
     console.log('Response:', response.data);
   })
