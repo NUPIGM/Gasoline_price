@@ -1,6 +1,7 @@
 name: Run Python Script and Push Changes
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 8 * * *'  # 定时每天8点执行
 
