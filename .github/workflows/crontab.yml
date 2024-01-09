@@ -22,7 +22,6 @@ jobs:
       - name: Run start.py
         run: |
           pip install requests
-          pip install BeautifulSoup
           python start.py  # 运行你的 start.py 脚本，假设存储库里有该文件
 
       - name: Commit and push changes
